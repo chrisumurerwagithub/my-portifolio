@@ -1,0 +1,32 @@
+
+body{
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: auto;
+        box-sizing: border-box;
+    
+        margin-left:-5px;
+        margin-right:-5px;
+        float: left;
+}
+.nav a{
+        color: rgb(58, 42, 42);
+        display: inline;
+        font-size: 20px;
+        width: 100px;
+        height: 100px;
+        padding: 50px;
+        text-decoration: none;
+        it
+
+        
+}
+.main{
+display: inline;        
+
+}
+.button{
+        background-color: deeppink ;
+      color: deeppink;  
+      border-radius: 10px;
+}
