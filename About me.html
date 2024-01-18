@@ -1,39 +1,127 @@
-<!DOCTYPE html>
-<html>
-    <header>
-        <body style="margin-left:  150px;"></body>
-        <body style="margin-right: 150px;"></body>
-     <h1 style="text-align: center;">About me</h1>
-</style>
-</head>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About me</title>
+   <link rel="stylesheet" href="me.css">
+   <style>
+       body {
+           margin: 0 30px; /* Add margin to the left and right */
+           padding: 0;
+           display: flex;
+           flex-direction: column;
+           min-height: 100vh;
+       }
+       header {
+           text-align: center;
+       }
+       h1 {
+           text-align: center;
+       }
+       .content {
+           display: flex;
+           justify-content: space-around;
+           margin-bottom: 20px; /* Add space between content and footer */
+       }
+
+       .content > div {
+           flex: 70%;
+       }
+
+       h2 {
+           color: darkorchid;
+       }
+
+       h3 {
+           color: rgb(6, 5, 7);
+       }
+
+       ul {
+           list-style-type: none;
+           padding: 0;
+       }
+       #button1 {
+           font-size: 16px;
+           padding: 10px 20px;
+           border-radius: 5px;
+           background-color: lightgray;
+           cursor: pointer;
+       }
+
+       .image-container {
+           text-align: center;
+          /* background-color: lightgray; /* Light gray color for the rectangle */
+           padding: 10px; /* Adjust padding as needed */
+           border-radius: 15px; /* Add border radius to the rectangle */
+           width: 300px;/* Adjust width as needed */
+           height: 300px;
+           border: 1px  solid gray;
+       }
+
+       .image-container img {
+           width: 300px;
+           height: 300px;
+           border-radius: 10%;
+           padding: 10px;
+           
+       }
+.profile{
+   padding: 10px;
+    width: 200px;
+    margin: 0px 10px 10px 50px;
+}
+       footer {
+           position: relative;
+           background-color: rosybrown;
+           padding: 70px;
+           text-align: center;
+           margin-top: auto;
+       }
+
+       /* Circle styles */
+       footer::before,
+       footer::after {
+           content: "";
+           position: absolute;
+           width: 50px;
+           height: 50px;
+           border-radius: 50%;
+       
+       }
+   </style>
+</head>
 <body>
-    </header>
-    <p style="text-align: center;">Am chris, UI,UX developer</p>
+   <header>
+       <h1>About me</h1>
+   </header>
+
+   <p style="text-align: center;">I'm Chris, UI/UX developer</p>
+
+   <div class="content">
+       <div>
+           <h2>Developing with passion by creating and building websites</h2>
+           <h3>I am a software developer where I help different people by making their services available online.</h3>
+           <p>Here are the languages I am likely to use:
+               <ul>
+                   <li>HTML</li>
+                   <li>CSS</li>
+                   <li>JS</li>
+               </ul>
+               <div style="text-align: left;">
+                   <input type="button" value="Contact me" id="button1">
+               </div>
+           </p>
+       </div> 
     
-    <div style="display:flex; justify-content:space-around;">
-        </div>
-        <div style="display:flex; justify-content:space-between;">
-            <div style="flex: 50%;">
-                <p>
-                    <h2 style="color: darkorchid">Developing with passion by <br>creating and building websites</h2>
-                    <h3 style="color: rgb(6, 5, 7)">I am a software developer<br>where I help different people<br>by making their services available online.</h3>
-                    <p>Here are the languages I am likely to use:<br>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
-                    </p>
-                </p>
-            </div>
-            
-            <div style="flex: 60%; text-align: center;">
-                <p>
-                    <img src="ceo.jpg" width="200px" height="200px" style="border-radius: 10%;" />
-                </p>
-            </div>
-        </div>
-        
-    </div>
-    </html>
-    
+
+            <div class="profile">
+                <div class="image-container">
+                    <img src="ceo.jpg" alt="CEO Image">
+                </div>
+                </div>
+  </div>
+   <footer>
+       &copy; Email: chrisumurerwa1@gmail.com
+   </footer 

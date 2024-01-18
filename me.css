@@ -1,0 +1,18 @@
+.nav a{
+  display :flex: ;
+  color: black;
+  
+  display: inline;
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+  text-decoration: none;
+   
+   }
+    
+
+#button2:hover {
+background-color: darkorchid; /* Change the background color on hover if desired */
+}
+}

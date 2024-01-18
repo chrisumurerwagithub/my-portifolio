@@ -1,0 +1,18 @@
+#button{
+    float:left;
+        color:white;
+        background-color: lightslategrey;
+        margin-left:  150px;
+     
+          }
+        
+
+#button2:hover {
+    background-color: darkorchid; /* Change the background color on hover if desired */
+  }
+  
+footer {
+  background-color: lightgray;
+  text-align: right;
+  padding: 10px;
+}

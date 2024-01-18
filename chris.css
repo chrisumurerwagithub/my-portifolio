@@ -1,5 +1,6 @@
 
 body{
+  background-color: whitesmoke;
     padding: 20px;
     margin-top: 2%;
     margin-left: auto;
@@ -10,23 +11,40 @@ body{
         float: left;
 }
 .nav a{
-        color: rgb(58, 42, 42);
+        display :flex: ;
+        color: black;
+        
         display: inline;
         font-size: 20px;
         width: 100px;
         height: 100px;
         padding: 50px;
         text-decoration: none;
-        it
+         
+         }
+#button1{
+  float:right ;
+        color:white;
+        background-color: fuchsia;
 
         
 }
 .main{
 display: inline;        
 
-}
-.button{
-        background-color: deeppink ;
-      color: deeppink;  
-      border-radius: 10px;
+}  
+    #button2 {
+        background-color: darkmagenta; /* Set the background color to dark magenta */
+        color: white; /* Set the text color to white for better visibility */
+        padding: 10px 20px; /* Add padding for better button appearance */
+        border: radius 20px; ;
+        cursor: pointer;
+      }
+  
+      #button2:hover {
+        background-color: darkorchid; /* Change the background color on hover if desired */
+      }
+      };
+      
+      
 }
